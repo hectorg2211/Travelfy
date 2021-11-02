@@ -22,10 +22,11 @@ const Details = () => (
 
     <div className="detail-main">
       <h2 className="detail-main__title">Hotel las palmas</h2>
+      <div className="detail-main__stars">*****</div>
       <span className="detail-main__location">Albufeira, Portugal</span>
       <div className="detail-main__votes">
         <h2 className="average">9.4</h2>
-        <span>234 Votes</span>
+        <span className="count">234 Votes</span>
       </div>
     </div>
   </div>
