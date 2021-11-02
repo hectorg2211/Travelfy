@@ -1,0 +1,114 @@
+.header {
+  grid-column-start: 1;
+  grid-column-end: 3;
+
+  display: flex;
+  height: 70px;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.7rem;
+
+  &__logo {
+    height: 4rem;
+    margin-left: 20px;
+    cursor: pointer;
+    transition: all 0.2s;
+
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
+}
+
+.search {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  position: relative;
+
+  &__input {
+    width: 100%;
+    height: 100%;
+    border-radius: 100rem;
+    padding: 20px;
+    outline: none;
+    transition: all 0.2s;
+    border: none;
+    background-color: $color-grey-light-3;
+    font-size: inherit;
+    position: absolute;
+
+    &::placeholder {
+      color: $color-grey-dark-3;
+    }
+
+    &:focus {
+      transform: scaleX(1.1);
+    }
+  }
+
+  &__button {
+    z-index: 10;
+    position: absolute;
+    right: 20px;
+    outline: none;
+    border: none;
+    transition: all 0.2s;
+    cursor: pointer;
+
+    svg {
+      fill: $color-primary;
+      transform: scale(1.3);
+    }
+
+    &:hover,
+    &:focus {
+      transform: scale(1.3);
+    }
+  }
+}
+
+.user {
+  display: flex;
+  height: 100%;
+
+  &__bookmark,
+  &__messages {
+    margin: auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  &__image {
+    display: flex;
+    align-items: center;
+    padding: 0 20px 0 0;
+
+    img {
+      height: 4rem;
+      border-radius: 100%;
+      overflow: hidden;
+    }
+  }
+
+  :not(:last-child) {
+    padding: 0 20px;
+  }
+
+  svg {
+    fill: $color-primary;
+    transform: scale(1.2);
+    display: flex;
+    align-items: center;
+  }
+
+  & * {
+    transition: all 0.2s;
+    cursor: pointer;
+
+    &:hover {
+      background: $color-grey-light-3;
+    }
+  }
+}
