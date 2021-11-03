@@ -60,7 +60,34 @@ const Details = () => (
           <li className="list__item">We speak all languages</li>
           <li className="list__item">Perfect for families</li>
         </ul>
-        <div className="recommend"></div>
+
+        <div className="detail-recommend">
+          <p className="detail-recommend__count">
+            Peter and 3 other friends recommend this hotel.
+          </p>
+          <div className="detail-recommend__friends">
+            <img
+              src="./assets/user-1.jpg"
+              alt="User"
+              className="detail-recommend__img"
+            />
+            <img
+              src="./assets/user-4.jpg"
+              alt="User"
+              className="detail-recommend__img"
+            />
+            <img
+              src="./assets/user-3.jpg"
+              alt="User"
+              className="detail-recommend__img"
+            />
+            <img
+              src="./assets/user-2.jpg"
+              alt="User"
+              className="detail-recommend__img"
+            />
+          </div>
+        </div>
       </div>
       <div className="user-reviews">User reviews</div>
     </div>
