@@ -89,7 +89,51 @@ const Details = () => (
           </div>
         </div>
       </div>
-      <div className="user-reviews">User reviews</div>
+
+      <div className="user-reviews">
+        <figure className="review">
+          <div className="blockquote review__text">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos
+            delectus placeat accusantium autem commodi in possimus facilis
+            fugiat repellat alias.
+          </div>
+          <figcaption className="review__user">
+            <img
+              src="./assets/user-5.jpg"
+              alt="User 1"
+              className="review__photo"
+            />
+            <div className="review__user-box">
+              <p className="review__user-name">Peter Parker</p>
+              <p className="review__user-date">Nov 21st 2017</p>
+            </div>
+            <div className="review__rating">7.6</div>
+          </figcaption>
+        </figure>
+
+        <figure className="review">
+          <div className="blockquote review__text">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos
+            delectus placeat accusantium autem commodi in possimus facilis
+            fugiat repellat alias.
+          </div>
+          <figcaption className="review__user">
+            <img
+              src="./assets/user-6.jpg"
+              alt="User 2"
+              className="review__photo"
+            />
+            <div className="review__user-box">
+              <p className="review__user-name">Perla Tornez</p>
+              <p className="review__user-date">Jun 1st 2017</p>
+            </div>
+            <div className="review__rating">9.4</div>
+          </figcaption>
+        </figure>
+        <button className="btn-inline">
+          Show all <span>&rarr;</span>
+        </button>
+      </div>
     </div>
   </div>
 );
