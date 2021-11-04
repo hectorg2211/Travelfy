@@ -3,6 +3,9 @@
   flex-direction: column;
   justify-content: space-between;
 
+  grid-row-start: 2;
+  grid-row-end: 4;
+
   background: $color-grey-dark-1;
 
   font-size: 1.5rem;
