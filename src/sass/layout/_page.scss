@@ -7,9 +7,13 @@
   grid-template-columns: 20% 1fr;
   grid-template-rows: repeat(2, min-content);
 
+  @media only screen and (max-width: $bp-medium) {
+    max-width: 100%;
+    margin: 0;
+  }
+
   @media only screen and (max-width: $bp-small) {
     grid-template-columns: 1fr;
-    max-width: 100%;
     margin: 0;
   }
 }
