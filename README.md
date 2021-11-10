@@ -1,70 +1,143 @@
-# Getting Started with Create React App
+<div id="top"></div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
-## Available Scripts
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/hectorg2211/Travelfy">
+    <img src="public/assets/Travelfy.png" alt="Logo" height="80">
+  </a>
 
-In the project directory, you can run:
+<h3 align="center">Travelfy</h3>
 
-### `npm start`
+  <p align="center">
+    Fictional Tours App
+    <br />
+    <a href="https://github.com/hectorg2211/Travelfy"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://Travelfy-hector-app.netlify.app/">View Demo</a>
+    ·
+    <a href="https://github.com/hectorg2211/Travelfy/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/hectorg2211/Travelfy/issues">Request Feature</a>
+  </p>
+</div>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ol>
+</details>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<!-- ABOUT THE PROJECT -->
 
-### `npm test`
+## About The Project
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Fictional Travel Planning App with focus on CSS grid and responsive design
 
-### `npm run build`
+[![Travelfy](https://github.com/hectorg2211/Travelfy/blob/master/Travelfy.jpg)](https://Travelfy-hector-app.netlify.app/)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Built With
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- [SASS](https://sass-lang.com/)
+- [Parcel](https://parceljs.org/)
+- [HTML](https://developer.mozilla.org/es/docs/Web/HTML)
+- Flexbox
+- Grid
 
-### `npm run eject`
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<!-- GETTING STARTED -->
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Getting Started
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+To get a local copy up and running follow these simple example steps.
 
-## Learn More
+### Installation
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. Clone the repo
+   ```sh
+   git clone https://github.com/hectorg2211/Travelfy.git
+   ```
+2. Install NPM packages
+   ```sh
+   npm install
+   ```
+3. Run the development server
+   ```sh
+   npm start
+   ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-### Code Splitting
+See the [open issues](https://github.com/hectorg2211/Travelfy/issues) for a full list of proposed features (and known issues).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-### Analyzing the Bundle Size
+<!-- CONTRIBUTING -->
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Contributing
 
-### Making a Progressive Web App
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+Don't forget to give the project a star! Thanks again!
 
-### Advanced Configuration
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-### Deployment
+<!-- CONTACT -->
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Contact
 
-### `npm run build` fails to minify
+Send me an E-mail : **hector032716@gmail.com**
+Project Link: [https://github.com/hectorg2211/Travelfy](https://github.com/hectorg2211/Travelfy)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+
+[contributors-shield]: https://img.shields.io/github/contributors/hectorg2211/Travelfy.svg?style=for-the-badge
+[contributors-url]: https://github.com/hectorg2211/Travelfy/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/hectorg2211/Travelfy.svg?style=for-the-badge
+[forks-url]: https://github.com/hectorg2211/Travelfy/network/members
+[stars-shield]: https://img.shields.io/github/stars/hectorg2211/Travelfy.svg?style=for-the-badge
+[stars-url]: https://github.com/hectorg2211/Travelfy/stargazers
+[issues-shield]: https://img.shields.io/github/issues/hectorg2211/Travelfy.svg?style=for-the-badge
+[issues-url]: https://github.com/hectorg2211/Travelfy/issues
+[license-shield]: https://img.shields.io/github/license/hectorg2211/Travelfy.svg?style=for-the-badge
+[license-url]: https://github.com/hectorg2211/Travelfy/blob/master/LICENSE.txt
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/hector-garcia-698002188
+[product-screenshot]: images/screenshot.png
