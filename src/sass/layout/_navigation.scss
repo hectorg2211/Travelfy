@@ -13,6 +13,15 @@
   &__copyright {
     text-align: center;
     padding: 25px;
+    @media only screen and (max-width: $bp-small) {
+      display: none;
+    }
+  }
+
+  @media only screen and (max-width: $bp-small) {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-end: 3;
   }
 }
 
@@ -21,11 +30,21 @@
   position: relative;
   list-style: none;
 
+  @media only screen and (max-width: $bp-small) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+  }
+
   &__item {
     position: relative;
 
     &:not(:last-child) {
       margin-bottom: 1rem;
+      @media only screen and (max-width: $bp-small) {
+        margin-bottom: 0;
+      }
     }
 
     &::before {
@@ -58,5 +77,12 @@
     display: block;
     padding: 1.5rem 7rem;
     position: relative;
+
+    @media only screen and (max-width: $bp-small) {
+      padding: 1rem 3.5rem;
+    }
+    @media only screen and (max-width: $bp-smallest) {
+      padding: 1rem 1.5rem;
+    }
   }
 }

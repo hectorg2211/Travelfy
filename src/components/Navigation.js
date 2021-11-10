@@ -11,7 +11,7 @@ const Navigation = () => (
     </div>
 
     <div className="navigation__copyright">
-      2017 by Trillo. All rights reserved.
+      2017 by Travelfy. All rights reserved.
     </div>
   </aside>
 );
