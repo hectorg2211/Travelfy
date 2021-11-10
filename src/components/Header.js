@@ -6,7 +6,11 @@ import { AiFillMessage } from "react-icons/ai";
 
 const Header = () => (
   <div className="header">
-    <img src="../assets/logo.png" alt="Trillo logo" className="header__logo" />
+    <img
+      src="../assets/Travelfy.png"
+      alt="Travelfy logo"
+      className="header__logo"
+    />
     <form action="#" className="search">
       <input
         type="text"
