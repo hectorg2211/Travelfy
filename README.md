@@ -63,6 +63,7 @@ Fictional Travel Planning App with focus on CSS grid and responsive design
 
 ### Built With
 
+- [React](https://es.reactjs.org/)
 - [SASS](https://sass-lang.com/)
 - [Parcel](https://parceljs.org/)
 - [HTML](https://developer.mozilla.org/es/docs/Web/HTML)
